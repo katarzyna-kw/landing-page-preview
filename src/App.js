@@ -1,23 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <header className="header">
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+        We're coming soon
+
+        Hello fellow shoppers! We're currently building our new fashion store. 
+        Add your email below to stay up-to-date with announcements and our launch deals.
+
+        Email Address
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
+      <footer>
+        <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noreferrer noopener">Frontend Mentor</a>. 
+        Coded by <a href="https://katarzyna-kw.github.io/portfolio-website/" target="_blank" rel="noreferrer noopener">Katarzyna Wegrzynowicz</a>.
+        </p>
+
+      </footer>
     </div>
   );
 }
