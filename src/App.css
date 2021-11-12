@@ -2,6 +2,7 @@
   text-align: center;
   font-family: "Josefin Sans";
   font-size: 16px;
+  margin: 0;
 }
 
 .wrapper {
@@ -11,13 +12,4 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: black;
-}
-
-.attribution {
-  font-size: 11px; 
-  text-align: center;
-}
-
-.attribution a {
-  color: hsl(228, 45%, 44%);
 }
