@@ -6,11 +6,10 @@
   margin: 0;
 }
 
-.wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: black;
+@media (min-width: 376px) {
+  .App {
+    background: url("https://raw.githubusercontent.com/katarzyna-kw/landing-page-preview/52bf5852703b89ed5f7f474fd9416491ec095c1b/public/images/bg-pattern-desktop.svg");
+    width: 100vw;
+    height: 100vh;
+  }
 }
