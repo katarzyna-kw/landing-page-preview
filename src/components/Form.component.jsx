@@ -4,8 +4,10 @@ import './Form.css'
 
 function Form() { 
 
+   //test if first render
    const firstRender= useRef(true);
-   const [disable, setDisable] = useState(true);
+   //
+   const [disabled, setDisabled] = useState(true);
    const [error, setError] = useState(null);
    const [email, setEmail] = useState("");
 
@@ -18,7 +20,9 @@ function Form() {
    };
 
    useEffect(() => {
+      //skip validation on initial render
       if (firstRender.current) {
+         //no longer inital render
          firstRender.current = false;
          return;
       }
@@ -33,12 +37,12 @@ function Form() {
          }
        };
    
-      setDisable(formValidation());
+      setDisabled(formValidation());
    }, [email]);
  
    return (
       <div className="form-wrapper">
-         <form onSubmit={onSubmit}>
+         <form className={error ? 'border-red' : "border-default"} onSubmit={onSubmit}>
             <input 
                placeholder="Email Address"
                type="email" 
@@ -47,11 +51,13 @@ function Form() {
                onChange={e => setEmail(e.target.value)}
             />
             <button
-               type="submit">
+               className="btn" 
+               type="submit" disabled={disabled}
+            >
                <img src="https://raw.githubusercontent.com/katarzyna-kw/landing-page-preview/d39487d8743a0fb56e66db0dc6f974936e478f71/public/images/icon-arrow.svg" alt="click to submit email address" />
-               </button>
+            </button>
             </form>
-            {error && <p className="error">{error}</p>}
+            {error && <p className="error-msg">{error}</p>}
       </div>
    )
 }
