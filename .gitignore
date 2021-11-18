@@ -42,3 +42,4 @@ yarn-error.log*
 README.md
 style-guide.md
 yarn.lock
+package.json
