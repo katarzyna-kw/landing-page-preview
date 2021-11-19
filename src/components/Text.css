@@ -28,12 +28,48 @@ h1 {
    text-align: center;
 }
 
-@media (min-width: 376px) {
+@media (min-width: 768px) {
    .text-wrapper {
       text-align: left;
+      padding: 1.2% 14% 0 14%;
+      margin-bottom: 0;
+   }
+
+   h1 {
+      font-size: 2.5rem;
+      letter-spacing: .9rem;
+      line-height: 3.4rem;
+      padding-bottom: 0;
+      margin-bottom: 0;
+   }
+
+   .text-greeting__bold {
+      line-height: 3.6rem;
    }
 
    .text-body {
       text-align: left;
+      padding-top: 0;
+      margin-top: 15px;
+      padding-right: 10%;
+      font-size: 14px;
+   }
+}
+
+@media (min-width: 1000px) {
+   h1 {
+      font-size: 3.3rem;
+   }
+
+   .text-greeting__bold {
+      line-height: 3.6rem;
+   }
+
+   .text-body {
+      text-align: left;
+      padding-top: 0;
+      margin: 15px 0 30px 0;
+      padding-right: 15%;
+      font-size: 14px;
    }
 }

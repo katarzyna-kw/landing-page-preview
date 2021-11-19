@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Header from './Header.component'
 import Image from './Image.component'
-import Form from './Form.component'
 import Text from './Text.component'
 import DesktopImage from './DesktopImage.component'
 import '../App.css'
@@ -26,17 +25,14 @@ function Card() {
          <div className="wrapper-content">
             <Header />
             {/* {isMobile ? (
-               <div>I show on mobile</div>
+                  <div>I show on mobile</div>
             ) : (
-               <div>I show on non mobile</div>
+                  <div>I show on non mobile</div>
             )} */}
             {isMobile && <Image />}
-            <div className="wrapper-content-message">
-               <Text />
-               <Form />
-            </div>
-            {!isMobile && <DesktopImage />}
+            <Text />
          </div>
+         {!isMobile && <DesktopImage />}
       </div>
    )
 }

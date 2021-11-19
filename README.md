@@ -47,7 +47,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
-This is a simple one page site. I choose to use React because it provided the opportunity to practice using state and conditional rendering, as well as validating a simple form without using a library.
+This is a simple one page site. I choose to use React for this project because it provided the opportunity to practice using state and conditional rendering based on window size, as well as in validating a simple form without using a library.
 
 ### Built with
 

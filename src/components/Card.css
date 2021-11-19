@@ -3,16 +3,25 @@
    flex-direction: column;
    align-items: center;
    justify-content: flex-start;
- }
+}
 
- .wrapper-content {
+.wrapper-content {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
- }
+}
 
- .wrapper-content-message {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
+ @media (min-width: 786px) {
+   .wrapper {
+     height: 100vh;
+     flex-direction: row;
+     align-items: flex-start;
+   }
+
+   .wrapper-content {
+    align-items: flex-start;
+     height: 100vh;
+     margin: 0;
+   }
  }
