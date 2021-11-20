@@ -57,8 +57,8 @@ function Form() {
                <img src="https://raw.githubusercontent.com/katarzyna-kw/landing-page-preview/d39487d8743a0fb56e66db0dc6f974936e478f71/public/images/icon-arrow.svg" alt="click to submit email address" />
             </button>
             </form>
-            <div class="yo">
-            {error && <p className="error-msg">{error}</p>}
+            <div class="error-wrapper">
+               {error && <p className="error-body">{error}</p>}
             </div>
       </div>
    )

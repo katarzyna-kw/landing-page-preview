@@ -1,4 +1,5 @@
 .App {
+  background-color: #fff;
   box-sizing: border-box;
   text-align: center;
   font-family: "Josefin Sans";
@@ -6,7 +7,7 @@
   margin: 0;
 }
 
-@media (min-width: 376px) {
+@media (min-width: 500px) {
   .App {
     background: url("https://raw.githubusercontent.com/katarzyna-kw/landing-page-preview/52bf5852703b89ed5f7f474fd9416491ec095c1b/public/images/bg-pattern-desktop.svg");
     width: 100vw;

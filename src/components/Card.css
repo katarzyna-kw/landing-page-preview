@@ -12,7 +12,7 @@
     align-items: center;
 }
 
- @media (min-width: 786px) {
+ @media (min-width: 500px) {
    .wrapper {
      height: 100vh;
      flex-direction: row;

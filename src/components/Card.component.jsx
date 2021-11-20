@@ -1,14 +1,13 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react'
 import Header from './Header.component'
-import Image from './Image.component'
+import HeroSmall from './HeroSmall.component'
 import Text from './Text.component'
-import DesktopImage from './DesktopImage.component'
+import HeroLarge from './HeroLarge.component'
 import '../App.css'
 import './Card.css';
 
 function Card() {
 
-   // const [isMobile, setIsMobile] = useState(true);
    const [isMobile, setIsMobile] = useState(window.innerWidth < 500);
 
    const updateMedia = () => {
@@ -29,10 +28,10 @@ function Card() {
             ) : (
                   <div>I show on non mobile</div>
             )} */}
-            {isMobile && <Image />}
+            {isMobile && <HeroSmall />}
             <Text />
          </div>
-         {!isMobile && <DesktopImage />}
+         {!isMobile && <HeroLarge />}
       </div>
    )
 }

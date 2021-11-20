@@ -1,0 +1,20 @@
+.wrapper-desktop {
+   height: 100vh;
+   flex-basis: 2;
+}
+
+.desktop-image {
+   height: 100vh;
+   width: auto;
+   margin-left: 0;
+}
+
+.wrapper-tablet {
+   height: 100vh;
+   overflow: hidden;
+
+}
+.tablet-image {
+   height: 100vh;
+   margin-left: -100px;
+}
