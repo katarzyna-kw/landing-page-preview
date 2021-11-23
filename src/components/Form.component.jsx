@@ -52,12 +52,13 @@ function Form() {
             />
             <button
                className="btn" 
-               type="submit" disabled={disabled}
+               type="submit" 
+               disabled={disabled}
             >
                <img src="https://raw.githubusercontent.com/katarzyna-kw/landing-page-preview/d39487d8743a0fb56e66db0dc6f974936e478f71/public/images/icon-arrow.svg" alt="click to submit email address" />
             </button>
             </form>
-            <div class="error-wrapper">
+            <div className="error-wrapper">
                {error && <p className="error-body">{error}</p>}
             </div>
       </div>
