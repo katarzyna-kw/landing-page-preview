@@ -50,6 +50,7 @@ function Form() {
                value={email}
                onChange={e => setEmail(e.target.value)}
             />
+            {error && <img className="error-img" src="https://raw.githubusercontent.com/katarzyna-kw/landing-page-preview/9b5f41dec688c2ad0edf8bf13a94743021fe5bd8/public/images/icon-error.svg" alt="error: enter valid email address" />}
             <button
                className="btn" 
                type="submit" 
