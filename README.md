@@ -31,20 +31,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![https://raw.githubusercontent.com/katarzyna-kw/landing-page-preview/main/public/images/base-apparel.png](.https://raw.githubusercontent.com/katarzyna-kw/landing-page-preview/main/public/images/base-apparel.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/katarzyna-kw/landing-page-preview)
+- Live Site URL: [Add live site URL here](https://katarzyna-kw.github.io/landing-page-preview/)
 
 ## My process
 This is a simple one page site. I choose to use React for this project because it provided the opportunity to practice using state and conditional rendering based on window size, as well as in validating a simple form without using a library.
@@ -60,8 +52,6 @@ This is a simple one page site. I choose to use React for this project because i
 ### Useful resources
 
 - [Simple Form Validation with React Hooks useState and useEffect](https://kitson-broadhurst.medium.com/simple-form-validation-with-react-hooks-usestate-and-useeffect-57620d808cc8) - This article was very helpful in understanding form validation with React Hooks, particularly with the concept of how/why to use useRef.
-
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
 
 ## Author
