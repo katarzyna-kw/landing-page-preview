@@ -70,7 +70,7 @@ input {
    background: linear-gradient(135deg, var(--gradient-red), var(--gradient-pink));
 }
 
-@media (min-width: 500px) {
+@media (min-width: 550px) {
    .form-wrapper {
       display: block;
    }

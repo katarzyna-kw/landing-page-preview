@@ -10,7 +10,7 @@
    width: auto;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 550px) {
    .header-logo {
       height: 27px;
       padding-top: 22px;

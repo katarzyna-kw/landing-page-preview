@@ -51,7 +51,7 @@ This is a simple one page site. I choose to use React for this project because i
 
 ### Useful resources
 
-- [Simple Form Validation with React Hooks useState and useEffect](https://kitson-broadhurst.medium.com/simple-form-validation-with-react-hooks-usestate-and-useeffect-57620d808cc8) - This article was very helpful in understanding form validation with React Hooks, particularly with the concept of how/why to use useRef.
+- [Simple Form Validation with React Hooks useState and useEffect](https://kitson-broadhurst.medium.com/simple-form-validation-with-react-hooks-usestate-and-useeffect-57620d808cc8) - This article was very helpful in understanding form validation with React Hooks, particularly with the concept of how/why to use useRef
 
 
 ## Author

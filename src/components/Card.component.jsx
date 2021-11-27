@@ -8,10 +8,10 @@ import './Card.css';
 
 function Card() {
 
-   const [isMobile, setIsMobile] = useState(window.innerWidth < 500);
+   const [isMobile, setIsMobile] = useState(window.innerWidth < 550);
 
    const updateMedia = () => {
-      setIsMobile(window.innerWidth < 500);
+      setIsMobile(window.innerWidth < 550);
    }
 
    useEffect(() => {
