@@ -3,18 +3,20 @@
    flex-basis: 2;
 }
 
-.desktop-image {
+.image-desktop {
    height: 100vh;
    width: auto;
    margin-left: 0;
 }
 
-.wrapper-tablet {
+.wrapper-tablet,
+.wrapper-ipadpro {
    height: 100vh;
    overflow: hidden;
 
 }
-.tablet-image {
+.image-tablet,
+.image-ipadpro {
    height: 100vh;
    margin-left: -100px;
 }
