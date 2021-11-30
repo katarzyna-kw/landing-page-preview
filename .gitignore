@@ -39,7 +39,6 @@ yarn-error.log*
 .DS_Store
 
 
-README.md
 style-guide.md
 yarn.lock
 package.json

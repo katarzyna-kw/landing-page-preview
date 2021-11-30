@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Work in progress
 
-<!-- This is a solution to the [Base Apparel coming soon page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/base-apparel-coming-soon-page-5d46b47f8db8a7063f9331a0). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Base Apparel coming soon page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/base-apparel-coming-soon-page-5d46b47f8db8a7063f9331a0).
 
 ## Table of contents
 
@@ -39,11 +39,11 @@ Users should be able to:
 - Live Site URL: [Add live site URL here](https://katarzyna-kw.github.io/landing-page-preview/)
 
 ## My process
-This is a simple one page site. I choose to use React for this project because it provided the opportunity to practice using state and conditional rendering based on window size, as well as in validating a simple form without using a library.
+This is a simple one page site. I choose to use React for this project because it provided the opportunity to practice using state and conditional rendering based on window size, as well as in validating a simple form without using a library. I enjoyed researching and problem-solving how to use React Hooks to responsively render different components based on the user changing the window size.
 
 ### Built with
 
-- [React](https://reactjs.org/) - JS library
+- [React](https://reactjs.org/)
 - CSS
 - Flexbox
 - Mobile-first workflow
@@ -52,6 +52,7 @@ This is a simple one page site. I choose to use React for this project because i
 ### Useful resources
 
 - [Simple Form Validation with React Hooks useState and useEffect](https://kitson-broadhurst.medium.com/simple-form-validation-with-react-hooks-usestate-and-useeffect-57620d808cc8) - This article was very helpful in understanding form validation with React Hooks, particularly with the concept of how/why to use useRef
+- [Developing Responsive Layouts with React Hooks](https://blog.logrocket.com/developing-responsive-layouts-with-react-hooks/) - Great article about using React Hooks for responsive layouts
 
 
 ## Author
