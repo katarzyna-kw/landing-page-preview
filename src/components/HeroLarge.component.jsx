@@ -4,11 +4,11 @@ import './HeroLarge.css'
 
 function HeroLarge() {
 
-   const [isTablet, setIsTablet] = useState(window.innerWidth < 850);
+   const [isTablet, setIsTablet] = useState(window.innerWidth < 865);
    const [isIpadPro, setIsIpadPro] = useState(window.innerWidth >= 1024 && window.innerHeight >= 1366);
 
    const updateMed = () => {
-      setIsTablet(window.innerWidth < 850);
+      setIsTablet(window.innerWidth < 865);
       setIsIpadPro(window.innerWidth >=1024 && window.innerHeight >= 1366)
    }
 
