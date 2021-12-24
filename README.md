@@ -31,7 +31,8 @@ Users should be able to:
 
 ### Screenshot
 
-![https://raw.githubusercontent.com/katarzyna-kw/landing-page-preview/main/public/images/base-apparel.png](.https://raw.githubusercontent.com/katarzyna-kw/landing-page-preview/main/public/images/base-apparel.png)
+![](./public/images/base-apparel.png)
+
 
 ### Links
 
