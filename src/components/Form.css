@@ -1,77 +1,85 @@
 .form-wrapper {
-   width: 100%;
+  width: 100%;
 }
 
 .border-default {
-   border: 1px solid var(--gradient-red);
-   border-radius: 30px;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   box-sizing: border-box;
-   height: 45px;
-   max-width: 375px;
+  border: 1px solid var(--gradient-red);
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  height: 45px;
+  max-width: 375px;
 }
 
 .border-red {
-   border: 2px solid var(--soft-red);
-   border-radius: 30px;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   box-sizing: border-box;
-   height: 45px;
-   max-width: 375px;
+  border: 2px solid var(--soft-red);
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  height: 45px;
+  max-width: 375px;
 }
 
 input {
-   font-family: 'Josefin Sans', sans-serif;
-   color: var(--gray-red-neutral);
-   font-size: 16px;
-   border: none;
-   margin: .9em 20px .9em 20px;
-   width: 100%;
-   background-color: transparent;
+  font-family: "Josefin Sans", sans-serif;
+  color: var(--gray-red-neutral);
+  font-size: 16px;
+  border: none;
+  margin: 0.9em 20px 0.9em 20px;
+  width: 100%;
+  background-color: transparent;
 }
 
 .error-wrapper {
-   display: block;
+  display: block;
 }
 
 .error-body {
-   text-align: left;
-   color: var(--soft-red);
-   font-size: .8rem;
-   margin: .9em 20px .9em 20px;
-   padding-left: 5px;
+  text-align: left;
+  color: var(--soft-red);
+  font-size: 0.8rem;
+  margin: 0.9em 20px 0.9em 20px;
+  padding-left: 5px;
 }
 
 .error-img {
-   padding-right: 15px;
+  padding-right: 15px;
 }
 
 .btn {
-   display: block;
-   border-radius: 30px;
-   border: 1px solid var(--gradient-red);
-   padding: 10px 24px 10px 24px;
-   background: linear-gradient(135deg, var(--gradient-red), var(--gradient-red2));
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   width: 95px;
-   height: 47px;
-   box-shadow: 0 8px 20px 0 var(--desaturated-red);
-   margin: -2px;
-   cursor: pointer;
+  display: block;
+  border-radius: 30px;
+  border: 1px solid var(--gradient-red);
+  padding: 10px 24px 10px 24px;
+  background: linear-gradient(
+    135deg,
+    var(--gradient-red),
+    var(--gradient-red2)
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 95px;
+  height: 47px;
+  box-shadow: 0 8px 20px 0 var(--desaturated-red);
+  margin: -2px;
+  cursor: pointer;
 }
 
 .btn:hover {
-   background: linear-gradient(135deg, var(--gradient-red), var(--gradient-pink));
+  background: linear-gradient(
+    135deg,
+    var(--gradient-red),
+    var(--gradient-pink)
+  );
 }
 
 @media (min-width: 550px) {
-   .form-wrapper {
-      display: block;
-   }
+  .form-wrapper {
+    display: block;
+  }
 }
