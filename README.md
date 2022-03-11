@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/katarzyna-kw/landing-page-previewhttps://github.com/katarzyna-kw/landing-page-preview](https://github.com/katarzyna-kw/landing-page-preview)
+- Solution URL: [https://github.com/katarzyna-kw/landing-page-preview](https://github.com/katarzyna-kw/landing-page-preview)
 - Live Site URL: [https://katarzyna-kw.github.io/landing-page-preview/](https://katarzyna-kw.github.io/landing-page-preview/)
 
 ## My process
