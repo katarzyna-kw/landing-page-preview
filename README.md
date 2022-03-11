@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/katarzyna-kw/landing-page-preview)
-- Live Site URL: [Add live site URL here](https://katarzyna-kw.github.io/landing-page-preview/)
+- Solution URL: [https://github.com/katarzyna-kw/landing-page-previewhttps://github.com/katarzyna-kw/landing-page-preview](https://github.com/katarzyna-kw/landing-page-preview)
+- Live Site URL: [https://katarzyna-kw.github.io/landing-page-preview/](https://katarzyna-kw.github.io/landing-page-preview/)
 
 ## My process
 This is a simple one page site. I choose to use React for this project because it provided the opportunity to practice using state and conditional rendering based on window size, as well as in validating a simple form without using a library. I enjoyed researching and problem-solving how to use React Hooks to responsively render different components based on the user changing the window size.
